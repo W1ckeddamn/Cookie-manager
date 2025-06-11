@@ -1,7 +1,21 @@
-<<<<<<< HEAD
 # Cookie Manager
 
 A Python application for managing browser cookies with profile support.
+
+## Download
+
+### Option 1: Download Executable
+1. Go to [Releases](https://github.com/W1ckeddamn/cookie-manager/releases)
+2. Download the latest `cookie-manager.exe` from the Assets section
+3. Run the executable directly - no installation needed
+
+### Option 2: From Source Code
+```bash
+git clone https://github.com/W1ckeddamn/cookie-manager.git
+cd cookie-manager
+pip install -r requirements.txt
+python main.py
+```
 
 ## Features
 
@@ -66,7 +80,3 @@ cookie-manager/
 ├── main.py
 └── README.md
 ```
-=======
-# Cookie-manager
-Cookie manager 
->>>>>>> 4525265dcd42b2b35b50ef409aaaad4549f5f2d2
