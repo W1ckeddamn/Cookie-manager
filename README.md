@@ -1,52 +1,67 @@
 # Cookie Manager
 
-Cookie Manager is a graphical Python application that allows users to manage cookie profiles. Users can add profiles with a name and an optional description, which are saved in a designated folder. The application also provides functionality to open a web browser for user interaction.
+A Python application for managing browser cookies with profile support.
 
 ## Features
 
-- Add and remove cookie profiles
-- Save cookies in individual folders
-- User-friendly interface built with Tkinter
-- Open a web browser for easy access
+- Create and manage multiple browser profiles
+- Save cookies and browser data separately for each profile
+- Open Edge browser with selected profile
+- Modern and user-friendly interface
+- Anti-detection mechanisms for browser automation
 
-## Project Structure
+## Requirements
 
-```
-cookie-manager
-├── src
-│   ├── main.py                # Entry point of the application
-│   ├── managers
-│   │   └── cookie_manager.py   # Logic for managing cookie profiles
-│   ├── utils
-│   │   └── file_handler.py      # Utility functions for file operations
-│   └── ui
-│       ├── dialogs.py          # Dialogs for user input
-│       └── main_window.py      # Main user interface setup
-├── profiles                     # Directory for storing profile folders
-├── requirements.txt             # Project dependencies
-└── README.md                    # Project documentation
-```
+- Python 3.8+
+- Microsoft Edge browser
+- Required Python packages:
+  - selenium
+  - webdriver-manager
+  - tkinter (usually comes with Python)
 
 ## Installation
 
 1. Clone the repository:
-   ```
-   git clone <repository-url>
-   cd cookie-manager
-   ```
+```bash
+git clone https://github.com/W1ckeddamn/cookie-manager.git
+cd cookie-manager
+```
 
-2. Install the required dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage
 
-To run the application, execute the following command:
-```
-python src/main.py
+Run the application:
+```bash
+python main.py
 ```
 
-## License
+### Creating a Profile
+1. Click "ADD" button
+2. Enter profile name and description
+3. Click "OK" to create the profile
 
-This project is licensed under the MIT License.
+### Opening Browser
+1. Select a profile from the list
+2. Click "BROWSER" to open Edge with the selected profile
+
+## Project Structure
+
+```
+cookie-manager/
+├── assets/
+│   └── icon.png
+├── src/
+│   ├── managers/
+│   │   └── cookie_manager.py
+│   ├── ui/
+│   │   ├── main_window.py
+│   │   └── dialogs.py
+│   └── utils/
+│       └── file_handler.py
+├── main.py
+└── README.md
+```
