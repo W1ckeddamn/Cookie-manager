@@ -1,0 +1,11 @@
+[29908:14952:0611/032417.485:WARNING:chrome\browser\extensions\activity_log\activity_log_policy.cc:68] Scheduling init
+[29908:14952:0611/032417.485:WARNING:chrome\browser\extensions\activity_log\activity_log_policy.cc:68] Scheduling init
+[29908:26876:0611/032417.725:INFO:chrome\common\importer\edge_chrome_importer_utils_win.cc:33] Google chrome user data path not found.
+[29908:14952:0611/032417.922:WARNING:components\signin\internal\identity_manager\account_fetcher_service.cc:309] Edge does not support fetching account capabilities
+[29908:14952:0611/032417.922:WARNING:components\signin\internal\identity_manager\account_fetcher_service.cc:241] Should not execute: Tests depending on this function may fail
+[16792:27576:0611/032419.081:WARNING:net\spdy\spdy_session.cc:3075] Received HEADERS for invalid stream 1
+[29908:14952:0611/032419.140:WARNING:components\prefs\pref_notifier_impl.cc:41] Pref observer for video_enhancement.mode found at shutdown.
+[16792:22508:0611/032419.161:WARNING:net\extras\sqlite\sqlite_persistent_store_backend_base.cc:180] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:236 to client_task_runner_.
+[16792:22508:0611/032419.161:WARNING:net\extras\sqlite\sqlite_persistent_store_backend_base.cc:180] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:236 to client_task_runner_.
+[29908:14952:0611/032419.190:WARNING:components\prefs\pref_notifier_impl.cc:41] Pref observer for browser.touch_mode found at shutdown.
+[29908:14952:0611/032419.190:WARNING:components\prefs\pref_notifier_impl.cc:41] Pref observer for edge_screenshot.shortcut.main found at shutdown.
