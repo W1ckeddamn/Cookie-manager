@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cookie Manager
 
 A Python application for managing browser cookies with profile support.
@@ -65,3 +66,7 @@ cookie-manager/
 ├── main.py
 └── README.md
 ```
+=======
+# Cookie-manager
+Cookie manager 
+>>>>>>> 4525265dcd42b2b35b50ef409aaaad4549f5f2d2
