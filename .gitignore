@@ -1,23 +1,26 @@
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
 .env
+
+# Virtual Environment
+venv/
+env/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+output/
+*.exe
+
+# Project specific
 profiles/
 *.log
+.env
+
+# VS Code
+.vscode/
+*.code-workspace
